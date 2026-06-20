@@ -36,11 +36,6 @@ Usar React para tudo é um erro comum de engenharia conhecido como *overengineer
 * **Páginas com Pouquíssima Interatividade:** Se a página serve apenas para exibir conteúdo de texto e imagens, carregar toda a estrutura do React para o navegador do usuário é um desperdício de desempenho e banda.
 * **Projetos com Restrição Crítica de Tamanho de Arquivo:** O React adiciona um peso inicial de bytes (o *bundle size*) ao projeto. Para microssites extremamente otimizados para redes móveis precárias, soluções mais leves (ou JavaScript puro) são melhores.
 
-
-
-
-
-
 ## Alterar o Estado
 
 ## Hooks
@@ -49,3 +44,4 @@ Gerencia o estado e os ciclos de vida dentro de funções simples
 - `useEffect`
 
 ## Closures
+
